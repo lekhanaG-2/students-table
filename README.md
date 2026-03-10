@@ -1,6 +1,11 @@
 # Students Table – React CRUD Application
 
-A simple React application for managing student records with full CRUD operations.
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS](https://img.shields.io/badge/CSS-3-blue.svg)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-000000.svg)](https://lekhanaG-2.github.io/students-table/)
+
+A modern React application for managing student records with full CRUD operations, built with React hooks and localStorage for data persistence.
 
 ## Features
 
@@ -14,11 +19,26 @@ A simple React application for managing student records with full CRUD operation
 
 ## Tech Stack
 
-- **React** - Frontend framework
-- **JavaScript** - Programming language
-- **CSS** - Styling
-- **XLSX** - Excel file generation
-- **GitHub Pages** - Deployment
+- **React 18.2.0** - Frontend framework with hooks
+- **JavaScript ES6+** - Modern JavaScript features
+- **CSS3** - Responsive styling
+- **XLSX** - Excel file generation library
+- **localStorage API** - Client-side data persistence
+- **GitHub Pages** - Static site hosting
+
+## React Architecture
+
+This application follows React best practices with:
+
+- **Functional Components** with React Hooks
+- **Component-based Architecture**:
+  - `App.js` - Main application component
+  - `StudentForm.js` - Form for adding/editing students
+  - `StudentTable.js` - Table display component
+  - `DeleteConfirmDialog.js` - Confirmation dialog component
+- **State Management** using useState and useEffect hooks
+- **Props-based Communication** between components
+- **Event Handling** for user interactions
 
 ## Live Demo
 
