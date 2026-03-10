@@ -90,6 +90,22 @@ h1 {
   background-color: #1976D2;
 }
 
+.btn-clear {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.btn-clear:hover {
+  background-color: #cc0000;
+}
+
 /* Student Table */
 .student-table {
   width: 100%;
